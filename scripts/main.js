@@ -17,7 +17,7 @@ doorlink.addEventListener('change', (ev) => {
 houselink.addEventListener('mouseenter', (ev) => {
 if ((signal === 'OFF') && (doorstat === 'OPEN')) {
     houselink.style.backgroundColor = 'yellow';
-    houselink.innerHTML = 'Вы не забыли включить сигнализацию?'
+    houselink.innerHTML = 'Вы не забыли включить сигнализацию?';
 } else if ((signal === 'ON') && (doorstat === 'OPEN')) {
     houselink.style.backgroundColor = 'red';
     houselink.innerHTML = 'ВИУ - ВИУ - ВИУ !!!';
