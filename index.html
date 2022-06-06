@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        Выбери нужные переключатели и проверь состояние дома, наведя на него мышкой:
+        <div class="row">
+            <div>Сигнализация: </div>
+            <div>Дверь: </div>
+            
+        </div>
+        <div class="row">
+            <div>
+                <select name="signal">
+                    <option value="ON">ON</option>;
+                    <option value="OFF">OFF</option>;
+                </select>
+            </div>    
+            <div>
+                <select name="door">
+                    <option value="CLOSE">CLOSE</option>
+                    <option value="OPEN">OPEN</option>
+                </select>
+            </div>
+        </div>
+        <div class="kordon">Дом, который построил Джек</div>
+    </div>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
